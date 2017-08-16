@@ -1,0 +1,203 @@
+@charset "utf-8";
+/***********************
+通用注释块
+**********************/
+
+body{
+	font-family:'Open sans',sans-serif;	
+}
+
+#wrapper{
+	max-width:940px;
+	margin:0 auto;
+	padding:0 5%;
+}
+
+a{
+	text-decoration:none;	/*文本下划线隐藏*/
+}
+
+img{
+	max-width:100%;
+}
+h3{
+	margin:0 0 1em 0;
+}
+
+/***********************
+HEADING
+**********************/
+header{
+	float:left;
+	margin:0 0 30px;
+	padding:5px 0 0 0;
+	width:100%;
+}
+
+
+
+
+/*网页logo居中*/
+#logo{
+	text-align:center;
+	margin:0;	
+}
+
+/***********************
+NAVGATION
+**********************/
+	
+nav {
+	text-align:center;
+	padding::10px 0;
+	margin:20px 0 0;
+}
+nav ul{
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+nav li{
+	display:inline-block;	/* 列表并排显示 */
+}
+
+nav a{
+	font-weight:800;
+	padding:15px 10px;
+}
+
+
+
+
+/***********************
+FOOTER
+**********************/
+footer{
+	font-size:0.75;
+	text-align:center;
+	padding-top:50px;
+	color:#ccc;
+	clear:both;		/*清除左右两侧的浮动影响*/
+}
+.social-icon{
+	width:20px;
+	height:20px;
+	margin:0 5px;
+}
+
+/***********************
+PAGE VEDIO
+**********************/
+#gallery{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#gallery li{
+	float:left;		/* 两列 */
+	width:45%;		/* 占父容器的45%;2个占90% */
+	margin:2.5%;	/* 2.5*4=10% */
+	background-color:f5f5f5;
+	color:#bdc3c7;
+}
+
+#gallery li a p{
+	margin:0;
+	padding:5%;
+	font-size:0.75em;
+	color:#bdc3c7;
+}
+
+/***********************
+PAGE ABOUT
+**********************/
+.profile-photo{
+	display:block;	 
+	max-width:150px;	
+	margin:0 auto 30px;
+	border-radius:20%;		/*边框半径*/
+}
+
+/***********************
+PAGE CONTACT
+**********************/
+.contact-info{
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:0.9em;
+}
+.contact-info a{
+	display:block;					/*给图像显示的空间*/
+	min-height:20px;				/*最小的高度设置为20像素*/
+	background-repeat:no-repeat;	/*默认背景重复使用;这里设置只显示一次*/
+	background-size:20px 20px;		
+	padding:0 0 0 30px;
+	margin:0 0 10px;
+}
+.contact-info li.phone a{
+	background-image:url('../img/phone.png');
+}
+.contact-info li.mail a{
+	background-image:url('../img/mail.png');
+}
+.contact-info li.baidu a{
+	background-image:url('../img/twitter.png');
+}
+
+
+/***********************
+Colors
+**********************/
+body{
+	background-color:#fff;
+	color:#999
+
+}
+/*green header*/
+header{
+	background:#6ab47b;
+	border-color:#599A68;	/* 边框颜色*/
+}
+
+/*导航背景*/
+nav{
+	background:#599A68;
+
+}
+
+
+/*logo text*/
+h1,h2{
+	color:#fff;
+}
+h1{
+	font-family:'changa one', sans-serif;	/*字体样式; 草书*/
+	margin:15px 0;
+	font-size:1.75em;	/*字体大小 1em=16px*/
+	font-weight:normal;	/*字体加粗*/
+	line-height:0.8em;	/*每行文本之间的距离*/
+}
+
+h2{
+	font-size:0.75em;
+	margin:-5px 0 0;	/*第一个值表示顶部的边距 第二个值表示左右两边的边距 第三值表示底部的边距*/
+	font-weight:normal;
+
+}
+
+a{
+	color:bab47b;
+
+}
+
+nav a{	/*导航栏链接颜色*/
+	color:#fff;
+}
+
+nav a.selected, nav a:hover{  /*被选中时导航栏的颜色*/
+		color:#32673f;
+}
+
+
